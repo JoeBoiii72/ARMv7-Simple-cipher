@@ -1,5 +1,5 @@
 # ARMv7-Simple-cipher
-- A simple cipher in the ARMv7-A assembly language
+- A simple cipher in the ARMv7 assembly language
 
 - The actual text to be encrypted/decrypted is passed to the program using standard
 input. 
