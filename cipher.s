@@ -1,14 +1,14 @@
 @---------------------------------------------------------------------------------------@
-@  cw1.s																				@
-@																						@
-@  Author: Joe Kenyon, Jardel Kerr														@
-@																						@
-@  Last Updated: 30/10/2019		         												@
-@ 																						@
+@  cipher.s										@
+@											@
+@  Author: Joe Kenyon                							@
+@											@
+@  Last Updated: 30/10/2019		         					@
+@ 											@
 @  Description: Encrypt and decrypt text sent through standard input using two keys.	@
-@	E = (27 - key) + plain																@
-@	D = (cipher - 27) + key																@
-@    Cipher/plain text is then outputted through standard output.						@
+@	E = (27 - key) + plain                                                          @
+@	D = (cipher - 27) + key		                                                @
+@    Cipher/plain text is then outputted through standard output.                       @
 @---------------------------------------------------------------------------------------@
 
 @-------------------------------------------------------------------------@
