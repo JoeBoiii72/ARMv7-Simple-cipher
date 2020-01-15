@@ -11,13 +11,15 @@ input.
 
 # Usage
 
-./cw1 1 keystring1 keystring2
+./cipher 1 keystring1 keystring2
 
-The first argument must be 0 or 1 denoting encryption/decryption.
+- The first argument must be 0 or 1 denoting encryption/decryption.
+- The second argument must be a string representing the first private key.
+- The third argument must be a string representing the second private key.
 
 so...
 
-cat textfile.txt | ./cipher 0 keystring1 keystring2 | ./chiper 1 keystring1 keystring2
+cat textfile.txt | ./cipher 0 keystring1 keystring2 | ./cipher 1 keystring1 keystring2
 
-will  return the original text from textfile.txt, albeit lower case and without
+...will return the original text from textfile.txt, albeit lower case and without
 white spaces and punctuation.
